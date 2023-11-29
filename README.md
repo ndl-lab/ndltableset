@@ -10,7 +10,7 @@ PascalVOC形式： https://lab.ndl.go.jp/dataset/ndltableset/pascalvoc/NDLTabNet
 
 ## 1. データセットの説明
 
-NDLTableSetは、国立国会図書館デジタルコレクション（以下「デジコレ」といいます。）&lt;[*http://dl.ndl.go.jp/*](http://dl.ndl.go.jp/)&gt;が提供している、
+NDLTableSetは、国立国会図書館デジタルコレクション[*http://dl.ndl.go.jp/*](http://dl.ndl.go.jp/)が提供している、
 著作権保護期間満了資料の画像データの中から自動的に切り出された表画像に対して、表の構造を記述したアノテーション情報を付与して公開したデータセットです。
 
 NDLTableSetを機械学習に利用することで、紙の資料を撮影した画像（非ボーンデジタルな資料）に含まれる表領域に対して、表構造推定用モデルを開発することができます。
