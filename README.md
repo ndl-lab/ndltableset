@@ -1,5 +1,4 @@
-# NDLTableNet
-NDLTableSetの公開リポジトリ
+# NDLTableSet
 ==================
 
 NDLTableSetは以下のURLから公開しています。<br/>
