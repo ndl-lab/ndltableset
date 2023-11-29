@@ -15,7 +15,7 @@ NDLTableSetは、国立国会図書館デジタルコレクション[*http://dl.
 
 NDLTableSetを機械学習に利用することで、紙の資料を撮影した画像（非ボーンデジタルな資料）に含まれる表領域に対して、表構造推定用モデルを開発することができます。
 
-利用例については、次のリポジトリを参照してください。[ndltsr](https://github.com/ndl-lab/ndltsr)
+利用例については、[ndltsr](https://github.com/ndl-lab/ndltsr)のリポジトリを参照してください。
 
 先行研究である[ICDAR2019_cTDaR](https://github.com/cndplab-founder/ICDAR2019_cTDaR)データセットのアノテーション方法に倣った「ICDAR2019_cTDaR形式」と、
 よりアノテーションツールや機械学習分野で汎用的に使われているフォーマットとして、利活用を容易にするために加工した「PascalVOC形式」の2通りの形式で配布しています。
