@@ -1,28 +1,28 @@
 # NDLTableNet
-NDLTableSetデータセットの公開リポジトリ
+NDLTableSetの公開リポジトリ
 ==================
 
-## データセットの概要
-
-NDLTableSetデータセットは以下のURLから公開しています。<br/>
-現在(2023年11月)の最新バージョンは1.0です。<br/>
+NDLTableSetは以下のURLから公開しています。<br/>
+現在(2023年11月)の最新バージョンは1.0であり、750画像分のデータセットとなります。<br/>
 
 ICDAR2019_cTDaR形式： https://lab.ndl.go.jp/dataset/ndltableset/icdar/NDLTabNet_ICDAR2019_cTDaRformat_ver1.zip
 
 PascalVOC形式： https://lab.ndl.go.jp/dataset/ndltableset/pascalvoc/NDLTabNet_PascalVOCformat_ver1.zip
 
-1.概要
-----
 
-### 1.1 データセットの説明
+## 1. データセットの説明
 
-NDLTableSetデータセットは、国立国会図書館デジタルコレクション（以下「デジコレ」といいます。）&lt;[*http://dl.ndl.go.jp/*](http://dl.ndl.go.jp/)&gt;が提供している、
-著作権保護期間満了資料の画像データの中から自動的に切り出された表画像に対して、表の構造を記述したアノテーション情報を付与して公開したものです。
+NDLTableSetは、国立国会図書館デジタルコレクション（以下「デジコレ」といいます。）&lt;[*http://dl.ndl.go.jp/*](http://dl.ndl.go.jp/)&gt;が提供している、
+著作権保護期間満了資料の画像データの中から自動的に切り出された表画像に対して、表の構造を記述したアノテーション情報を付与して公開したデータセットです。
+
+NDLTableSetを機械学習に利用することで、紙の資料を撮影した画像（非ボーンデジタルな資料）に含まれる表領域に対して、表構造推定用モデルを開発することができます。
+
+利用例については、次のリポジトリを参照してください。[ndltsr](https://github.com/ndl-lab/ndltsr)
 
 先行研究である[ICDAR2019_cTDaR](https://github.com/cndplab-founder/ICDAR2019_cTDaR)データセットのアノテーション方法に倣った「ICDAR2019_cTDaR形式」と、
 よりアノテーションツールや機械学習分野で汎用的に使われているフォーマットとして、利活用を容易にするために加工した「PascalVOC形式」の2通りの形式で配布しています。
 
-***ICDAR2019_cTDaR形式***
+***ICDAR2019_cTDaR形式の抜粋***
 ```
 <?xml version="1.0" ?>
 <document filename="1016581_112_0.jpg">
@@ -35,7 +35,7 @@ NDLTableSetデータセットは、国立国会図書館デジタルコレクシ
       <Coords points="432,291 432,322 475,291 475,322"/>
 （以下略）
 ```
-***PascalVOC形式***
+***PascalVOC形式の抜粋***
 ```
 <annotation>
   <filename>img/1016581_112_0.jpg</filename>
@@ -76,7 +76,7 @@ NDLTableSetデータセットは、国立国会図書館デジタルコレクシ
   </object>
 （以下略）
 ```
-### 1.2 データセットの権利
+## 2. データセットの権利
 「PDM（パブリック・ドメイン・マーク）」&lt; https://creativecommons.org/publicdomain/mark/1.0/deed.ja &gt;
 
 ※本データセットは著作権保護期間満了資料のみを加工して作成しています。
@@ -89,5 +89,5 @@ NDLTableSetデータセットは、自由な二次利用が可能です。ただ
 - 著作権以外の権利（著作者人格権、著作隣接権、肖像権、パブリシティ権、プライバシー権、商標権等）にも留意し、関連法令を遵守してください。
 - 論文等に利用する場合には、先行研究や後続研究と比較を容易にするためNDLTableSetデータセットとバージョンの明記にご協力ください。
 
-### 1.3 画像の出典情報
+## 3. データセットに含まれる画像の出典情報
 [metadata.csv](./metadata.csv)を確認してください。
