@@ -3,9 +3,11 @@
 NDLTableSetは以下のURLから公開しています。<br/>
 現在(2023年11月)の最新バージョンは1.0であり、750画像分のデータセットとなります。<br/>
 
-ICDAR2019_cTDaR形式： https://lab.ndl.go.jp/dataset/ndltableset/icdar/NDLTabNet_ICDAR2019_cTDaRformat_ver1.zip
+ICDAR2019_cTDaR形式：
+https://lab.ndl.go.jp/dataset/ndltableset/icdar/NDLTabNet_ICDAR2019_cTDaRformat_ver1.zip
 
-PascalVOC形式： https://lab.ndl.go.jp/dataset/ndltableset/pascalvoc/NDLTabNet_PascalVOCformat_ver1.zip
+PascalVOC形式：
+https://lab.ndl.go.jp/dataset/ndltableset/pascalvoc/NDLTabNet_PascalVOCformat_ver1.zip
 
 
 ## 1. データセットの説明
