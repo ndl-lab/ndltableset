@@ -15,6 +15,8 @@ https://lab.ndl.go.jp/dataset/ndltableset/pascalvoc/NDLTabNet_PascalVOCformat_ve
 NDLTableSetは、国立国会図書館デジタルコレクション[*http://dl.ndl.go.jp/*](http://dl.ndl.go.jp/)が提供している、
 著作権保護期間満了資料の画像データの中から自動的に切り出された表画像に対して、表の構造を記述したアノテーション情報を付与したデータセットです。
 
+アノテーション内容は、表中の各セルの座標情報及びICDAR2019_cTDaRデータセットに準拠したセル同士の相対的な位置情報です。
+
 NDLTableSetを機械学習に利用することで、紙の資料を撮影した画像（非ボーンデジタルな資料）に含まれる表領域に対して、表構造推定用モデルを開発することができます。
 
 利用例については、[ndltsr](https://github.com/ndl-lab/ndltsr)のリポジトリを参照してください。
